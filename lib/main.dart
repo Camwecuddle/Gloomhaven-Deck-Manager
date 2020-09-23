@@ -1,6 +1,7 @@
-import 'package:GHDeckCalculator/spellweaver.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:GHDeckCalculator/spellweaver.dart';
+import 'package:GHDeckCalculator/custom.dart';
 // import 'package:cupertino_back_gesture/cupertino_back_gesture.dart';
 
 void main() {
@@ -144,8 +145,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Image(image: AssetImage('images/spellweaver.png')),
                 onPressed: () {}),
             RaisedButton(
-                child: Image(image: AssetImage('images/spellweaver.png')),
-                onPressed: () {}),
+                child: Text("Custom"),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Custom()),
+                  );
+                }),
           ],
         ),
       ),

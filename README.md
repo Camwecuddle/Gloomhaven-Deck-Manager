@@ -8,7 +8,7 @@ Make sure you have flutter downloaded and use flutter run to start up the app on
 
 ## Explanation
 
-Gloomhaven s a progressive boardgame that evolves over the course of many 'scenarios.' It took me and my friends a while to figure out why we were running out of cards so fast on our first few scenarios. The key is to realize that your health bar is not actually your physical health dial that you keep track of but instead the number of cards you have left in your active deck. Since the only way to truly become exhausted (die) during a scenario is by running out of cards to play. This app is meant to help players make smart decisions with the cards they use at certain times by explaining how many total turns those cards would cost. Since in Gloomhaven some cards can only be played once while others are refreshed after a rest, there is a pretty simple formula for determining how many turns each card played will cost.
+Gloomhaven is a progressive boardgame that evolves over the course of many 'scenarios.' It took me and my friends a while to figure out why we were running out of cards so fast on our first few scenarios. The key is to realize that your health bar is not actually your physical health dial that you keep track of but instead the number of cards you have left in your active deck. Since the only way to truly become exhausted (die) during a scenario is by running out of cards to play. This app is meant to help players make smart decisions with the cards they use at certain times by explaining how many total turns those cards would cost. Since in Gloomhaven some cards can only be played once while others are refreshed after a rest, there is a pretty simple formula for determining how many turns each card played will cost.
 
 ## Goals
 

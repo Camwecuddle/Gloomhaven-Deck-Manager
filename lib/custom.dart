@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:GHDeckCalculator/deck.dart';
+import 'package:GHDeckCalculator/customdeck.dart';
 import 'package:flutter/services.dart';
 // import 'package:cupertino_back_gesture/cupertino_back_gesture.dart';
 
@@ -57,7 +57,7 @@ class _CustomState extends State<Custom> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => Deck(_deckSize)),
+            MaterialPageRoute(builder: (context) => CustomDeck(_deckSize)),
           );
         },
         tooltip: 'Done',
